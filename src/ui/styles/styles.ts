@@ -5,13 +5,19 @@ import '@fontsource/roboto/700.css';
 
 export const colors = {
     backgroundColor: 'rgb(15, 23, 43)',
-    onBackground: 'rgb(230, 230, 230)'
+    onBackground: 'rgb(230, 230, 230)',
+    secondary: 'rgb(150, 150, 150)'
 }
 
 export const styles = {
     body: {
         backgroundColor: colors.backgroundColor,
         color: colors.onBackground,
-        fontFamily: "Roboto"
+        fontFamily: "Roboto",
+        position: 'absolute',
+        left: 0,
+        top: 0,
+        width: '100vw',
+        height: '100vh'
     }
 }
