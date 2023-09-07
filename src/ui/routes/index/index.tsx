@@ -1,5 +1,9 @@
+import {AppLayout} from "../../layout/appLayout";
+
 export const Index = () => {
-    return (<>
-        Hello Index!
-    </>);
+    return (
+        <AppLayout>
+            <h1>Hello World!</h1>
+        </AppLayout>
+    );
 }
