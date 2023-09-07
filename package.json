@@ -4,9 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile-dev": "tsc && npx webpack --config webpack.config.dev.js"
   },
   "keywords": [],
   "author": "Kacper Faber",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "ts-loader": "^9.4.4",
+    "typescript": "^5.2.2",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "webpack-merge": "^5.9.0"
+  }
 }
