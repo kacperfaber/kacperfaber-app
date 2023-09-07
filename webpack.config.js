@@ -2,10 +2,10 @@ const path = require("path");
 
 module.exports =  {
     entry: {
-        main: "./src/app.ts",
+        main: "./src/app.tsx",
     },
     output: {
-        path: path.resolve(__dirname, './dist'),
+        path: path.resolve(__dirname, './www/dist'),
         filename: "app.js"
     },
     resolve: {

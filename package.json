@@ -5,18 +5,29 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "compile-dev": "tsc && npx webpack --config webpack.config.dev.js"
+    "compile-dev": "tsc && npx webpack --config webpack.config.dev.js",
+    "run-dev": "npm run compile-dev && serve www"
   },
   "keywords": [],
   "author": "Kacper Faber",
   "license": "MIT",
   "devDependencies": {
+    "@types/react": "^18.2.21",
+    "@types/react-dom": "^18.2.7",
+    "serve": "^14.2.1",
     "ts-loader": "^9.4.4",
     "typescript": "^5.2.2",
     "webpack": "^5.88.2",
     "webpack-cli": "^5.1.4"
   },
   "dependencies": {
+    "localforage": "^1.10.0",
+    "match-sorter": "^6.3.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-i18next": "^13.2.0",
+    "react-router-dom": "^6.15.0",
+    "sort-by": "^0.0.2",
     "webpack-merge": "^5.9.0"
   }
 }
