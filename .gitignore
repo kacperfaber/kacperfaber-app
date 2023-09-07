@@ -11,4 +11,4 @@ node_modules/
 *.*~
 
 # build
-www/dist/
+www/dist/compile-js/app.js
