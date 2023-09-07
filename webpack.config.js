@@ -5,11 +5,11 @@ module.exports =  {
         main: "./src/app.tsx",
     },
     output: {
-        path: path.resolve(__dirname, './www/dist'),
+        path: path.resolve(__dirname, './www/dist/compile-js'),
         filename: "app.js"
     },
     resolve: {
-        extensions: [".ts", ".tsx"],
+        extensions: [".ts", ".tsx", ".js"],
     },
     module: {
         rules: [
