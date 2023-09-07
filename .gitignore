@@ -1,0 +1,11 @@
+# idea
+.idea/
+dist/
+
+# vim
+*.swp
+*.un~
+*.*~
+
+# build
+www/dist/
