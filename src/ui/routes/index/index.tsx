@@ -1,7 +1,7 @@
 import {AppLayout} from "../../layout/appLayout";
 import {useStyles} from "../../styles/useStyles";
 import {Index_Header} from "./header/indexHeader";
-import {Index_Content} from "./indexContent";
+import {Index_Content} from "./content/indexContent";
 
 export const Index = () => {
     const classes = useStyles();
