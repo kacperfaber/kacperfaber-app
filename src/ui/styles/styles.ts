@@ -6,7 +6,7 @@ import '@fontsource/roboto/700.css';
 export const colors = {
     backgroundColor: 'rgb(15, 23, 43)',
     onBackground: 'rgb(230, 230, 230)',
-    secondary: 'rgb(150, 150, 150)'
+    secondary: 'rgba(250,250,250,0.5)'
 }
 
 export const styles = {
@@ -28,14 +28,14 @@ export const styles = {
         indexHeader: {
             flex: 1,
             position: 'sticky',
-            top: 25,
+            top: 100,
             left: 0,
             height: '100vh',
             width: '100%',
             display: 'flex',
             justifyContent: 'center',
             alignItems: 'center',
-            flexDirection: 'column'
+            flexDirection: 'column',
         },
 
         indexContainer: {
@@ -71,6 +71,30 @@ export const styles = {
 
         indexContent: {
 
+        }
+    },
+
+    "@media(min-width: 1400px)": {
+        indexHeaderName: {
+            "& h1":{
+                fontSize: '4rem'
+            },
+
+            "& h3": {
+                fontSize: '2rem'
+            }
+        }
+    },
+
+    "@media(max-width: 1400px)": {
+        indexHeaderName: {
+            "& h1":{
+                fontSize: '3rem'
+            },
+
+            "& h3": {
+                fontSize: '3rem'
+            }
         }
     },
 
