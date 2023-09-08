@@ -53,7 +53,8 @@ export const styles = {
             height: '100%',
             display: 'flex',
             justifyContent: 'space-between',
-            alignItems: 'center'
+            flexDirection: 'column',
+            alignItems: 'left'
         }
     },
 
@@ -121,5 +122,63 @@ export const styles = {
         alignItems: 'center',
         width: '100%',
         flex: 0.25
+    },
+
+    baseIndexSection: {
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        flexDirection: 'column'
+    },
+
+    baseListContainer: {
+        width: '100%',
+
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        flexDirection: 'column'
+    },
+
+    baseListItem: {
+        width: '100%',
+        display: 'flex',
+        justifyContent: 'left',
+        alignItems: 'center',
+        flexDirection: 'row',
+        padding: '20px',
+        borderRadius: '30px',
+        backgroundColor: 'rgba(255, 255, 255, 0)',
+        transition: 'background-color 0.1s ease-in-out',
+
+        "&:hover":{
+            backgroundColor: 'rgba(255, 255, 255, 0.1)'
+        }
+    },
+
+    baseListItemAction: {
+        flex: 0.2
+    },
+
+    baseListItemContent: {
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'left',
+        flexDirection: 'column',
+        flex: 0.8
+    },
+
+    baseListItemTags: {
+        display: 'flex',
+        justifyContent: 'center',
+        flexWrap: 'wrap'
+    },
+
+    tag: {
+        padding: '10px',
+        borderRadius: '100px',
+        color: 'rgb(94 234 212)',
+        backgroundColor: 'rgba(45,212,191,.1)',
+        margin: [5, 5]
     }
 }
