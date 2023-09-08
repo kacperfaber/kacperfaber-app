@@ -1,5 +1,6 @@
 import {createRoot} from "react-dom/client";
 import {AppContainer} from "./ui/appContainer";
+import {setupTranslation} from "./translation/setupTranslation";
 
 const getRootElement = () => {
     let e = document.getElementById("app");
@@ -7,6 +8,11 @@ const getRootElement = () => {
     return e;
 }
 
-const rootElement = getRootElement();
-const root = createRoot(rootElement);
-root.render(<AppContainer/>);
+setupTranslation()
+    .then(runApp);
+
+function runApp() {
+    const rootElement = getRootElement();
+    const root = createRoot(rootElement);
+    root.render(<AppContainer/>);
+}
