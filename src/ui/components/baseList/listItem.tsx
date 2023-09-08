@@ -6,7 +6,7 @@ export interface ListItemProps {
     primary: string;
     secondary: string;
     tags: string[];
-    action?: () => ReactNode;
+    action?: ReactNode;
     onClick?: () => void;
 }
 
@@ -15,7 +15,7 @@ export const ListItem = (props: ListItemProps) => {
     return (
         <div onClick={() => props.onClick?.()} className={classes.baseListItem}>
             <div className={classes.baseListItemAction}>
-                {props?.action?.()}
+                {props.action ?? null}
             </div>
 
             <div className={classes.baseListItemContent}>
