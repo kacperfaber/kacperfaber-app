@@ -106,6 +106,11 @@ export const styles = {
         color: colors.secondary
     },
 
+    textSecondary: {
+        color: colors.secondary,
+        fontSize: '1.2rem'
+    },
+
     indexHeaderName: {
         flex: .75
     },

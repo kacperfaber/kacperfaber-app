@@ -4,6 +4,11 @@
       "name": "Kacper Faber",
       "sub": "Programista",
       "paragraph": "Lorem Ipsum Dollor Sit Ammet"
+    },
+    "content": {
+      "bio": {
+        "text": "Lorem Ipsum Dollor Sit Ammet. Lorem Ipsum Dollor Sit Ammet. Lorem Ipsum Dollor Sit Ammet. Lorem Ipsum Dollor Sit Ammet. Lorem Ipsum Dollor Sit Ammet. Lorem Ipsum Dollor Sit Ammet. "
+      }
     }
   }
 }
