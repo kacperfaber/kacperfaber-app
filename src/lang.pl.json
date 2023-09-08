@@ -25,11 +25,11 @@
     },
 
     {
-      "title": "Spencer.NET",
-      "description": "Kontener wstrzykiwania zależności który napisałem w C# w 2021r.",
-      "tags": ["C#", ".NET", "NuGet", "Inversion of Control", "Dependency Injection"],
-      "url": "https://www.github.com/kacperfaber/Spencer.NET",
-      "action": "Ukończono w 2021r."
+      "title": "chlss",
+      "description": "Biblioteka szachową którą napisałem w TypeScript oraz opublikowałem w npm. Ponadto napisałem parę skryptów w Python żeby sprawdzić zgodność wyników z innym działającym programem. Używam jej jako zależności w innym moim projekcie - ChessTasks.com",
+      "url": "https://www.github/com/kacperfaber/chlss",
+      "action": "Ukończono w 2023r.",
+      "tags": ["TypeScript", "npm", "Silnik Szachowy", "Jest", "Python", "CI/CD"]
     }
   ]
 }
