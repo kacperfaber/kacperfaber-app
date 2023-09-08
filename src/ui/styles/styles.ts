@@ -31,7 +31,10 @@ export const styles = {
             top: 25,
             left: 0,
             height: '100vh',
-            width: '100%'
+            width: '100%',
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center'
         },
 
         indexContainer: {
@@ -44,7 +47,12 @@ export const styles = {
         },
 
         indexContent: {
-            flex: 1
+            flex: 1,
+
+            height: '100%',
+            display: 'flex',
+            justifyContent: 'space-between',
+            alignItems: 'center'
         }
     },
 
@@ -58,10 +66,30 @@ export const styles = {
 
         index: {
             flexDirection: 'column'
+        },
+
+        indexContent: {
+
         }
     },
 
     indexHeader: {},
 
-    indexContent: {}
+    indexContent: {},
+
+    colorSecondary: {
+        color: colors.secondary
+    },
+
+    indexHeaderName: {
+        flex: .75
+    },
+
+    indexHeaderLinks: {
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        width: '100%',
+        flex: 0.25
+    }
 }
