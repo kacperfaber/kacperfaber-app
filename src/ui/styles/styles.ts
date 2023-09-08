@@ -78,11 +78,13 @@ export const styles = {
     "@media(min-width: 1400px)": {
         indexHeaderName: {
             "& h1":{
-                fontSize: '4rem'
+                fontSize: '4rem',
+                margin: 0
             },
 
             "& h3": {
-                fontSize: '2rem'
+                fontSize: '2rem',
+                margin: 0
             }
         }
     },
