@@ -1,4 +1,7 @@
 {
+  "all": {
+    "projects": "Projekty"
+  },
   "index": {
     "header": {
       "name": "Kacper Faber",
@@ -10,5 +13,23 @@
         "text": "Lorem Ipsum Dollor Sit Ammet. Lorem Ipsum Dollor Sit Ammet. Lorem Ipsum Dollor Sit Ammet. Lorem Ipsum Dollor Sit Ammet. Lorem Ipsum Dollor Sit Ammet. Lorem Ipsum Dollor Sit Ammet. "
       }
     }
-  }
+  },
+
+  "__projects": [
+    {
+      "title": "Spencer.NET",
+      "description": "Kontener wstrzykiwania zależności który napisałem w C# w 2021r.",
+      "tags": ["C#", ".NET", "NuGet", "Inversion of Control", "Dependency Injection"],
+      "url": "https://www.github.com/kacperfaber/Spencer.NET",
+      "action": "Ukończono w 2021r."
+    },
+
+    {
+      "title": "Spencer.NET",
+      "description": "Kontener wstrzykiwania zależności który napisałem w C# w 2021r.",
+      "tags": ["C#", ".NET", "NuGet", "Inversion of Control", "Dependency Injection"],
+      "url": "https://www.github.com/kacperfaber/Spencer.NET",
+      "action": "Ukończono w 2021r."
+    }
+  ]
 }

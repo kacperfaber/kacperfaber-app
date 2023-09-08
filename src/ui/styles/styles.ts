@@ -144,7 +144,6 @@ export const styles = {
         width: '100%',
         display: 'flex',
         justifyContent: 'left',
-        alignItems: 'center',
         flexDirection: 'row',
         padding: '20px',
         borderRadius: '30px',
@@ -165,7 +164,12 @@ export const styles = {
         justifyContent: 'center',
         alignItems: 'left',
         flexDirection: 'column',
-        flex: 0.8
+        flex: 0.8,
+
+        "& h2": {
+            margin: 0,
+            lineHeight: 0
+        }
     },
 
     baseListItemTags: {
