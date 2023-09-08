@@ -13,11 +13,6 @@ export const styles = {
     body: {
         backgroundColor: colors.backgroundColor,
         color: colors.onBackground,
-        fontFamily: "Roboto",
-        position: 'absolute',
-        left: 0,
-        top: 0,
-        width: '100vw',
-        height: '100vh'
+        fontFamily: "Roboto"
     }
 }
