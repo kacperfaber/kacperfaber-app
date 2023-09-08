@@ -153,7 +153,8 @@ export const styles = {
         transition: 'background-color 0.1s ease-in-out',
 
         "&:hover":{
-            backgroundColor: 'rgba(255, 255, 255, 0.1)'
+            backgroundColor: 'rgba(255, 255, 255, 0.1)',
+            cursor: 'pointer'
         }
     },
 
