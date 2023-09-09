@@ -123,7 +123,20 @@ export const styles = {
         justifyContent: 'center',
         alignItems: 'center',
         width: '100%',
-        flex: 0.25
+        flex: 0.25,
+
+        "& a": {
+            color: colors.secondary,
+            textDecoration: 'none',
+            fontSize: '2.5rem',
+            margin: '10px',
+            transition: 'color 0.1s ease-in-out',
+            height: '100%',
+
+            "&:hover": {
+                color: 'white'
+            }
+        }
     },
 
     baseIndexSection: {
