@@ -24,6 +24,7 @@
   },
   "dependencies": {
     "@fontsource/roboto": "^5.0.8",
+    "html-react-parser": "^4.2.2",
     "i18next": "^23.5.1",
     "localforage": "^1.10.0",
     "match-sorter": "^6.3.1",
