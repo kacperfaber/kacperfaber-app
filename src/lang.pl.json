@@ -30,6 +30,134 @@
       "url": "https://www.github/com/kacperfaber/chlss",
       "action": "Ukończono w 2023r.",
       "tags": ["TypeScript", "npm", "Silnik Szachowy", "Jest", "Python", "CI/CD"]
+    },
+
+    {
+      "title": "ChessTasks.com/App",
+      "description": "Dostępna pod adresem chesstasks.com.pl aplikacja wieloplatformowa napisana w React i TypeScript, jako aplikacja kliencka do projektu ChessTasks.com/Server. Pozwala na rozwiązywanie zadań szachowych dostarczonych przez serwer i doskonalenie swoich szachowych umiejętności poprzez system rankingu, zaawansowanej wyszukiwarki zadań oraz system interakcji z innymi użytkownikami",
+      "url": "https://www.github.com/kacperfaber/chesstasks-app",
+      "action": "Ukończono w 2023r.",
+      "tags": ["React", "MUI", "TypeScript", "Capacitor", "Single Page Application", "Android", "Webpack", "CI/CD", "Szachy", "Zadania szachowe"]
+    },
+
+    {
+      "title": "ChessTasks.com/Server",
+      "description": "Serwer REST API, napisany w języku Kotlin oraz frameworku Ktor dostarczająca zadania szachowe do aplikacji klienckiej ChessTasks.com/App. Pozwala na rozwiązywanie zadań szachowych, system rankingowy, interakcje między użytkownikami, Obsługuje import zadań szachowych z publicznej bazy lichess.org",
+      "url": "https://www.github.com/kacperfaber/chesstasks-server",
+      "action": "Ukończono w 2023r.",
+      "tags": ["Kotlin", "Ktor", "Gradle", "REST API", "CI/CD", "Serwer", "Szachy", "Zadania szachowe"]
+    },
+
+    {
+      "title": "CodzienneMotto.pl/App",
+      "description": "Aplikacja wieloplatformowa napisana we frameworku Mithril, jako aplikacja kliencka serwera CodzienneMotto.pl/server. Pozwala na tworzenie list codziennych cytatów i udostępnianie ich innym użytkownikom aplikacji. Użytkownik może dołączyć do naszej listy poprzez kod zaproszenia. Użytkownik widzi tylko dzisiejsze motto i elementy które zostały już pokazane wcześniej. Właściciel listy może zarządzać listą, tworzyć cytaty jako elementy tej listy, zarządzać użytkownikami, wysyłać kody do dołączenia, edytować elementy listy. Docelowo właściciel będzie mógł zaplanować cytat na konkretny dzień lub zmienić kolejność [aktualnie to obsługiwane tylko na serwerze]",
+      "url": "https://www.github/com/kacperfaber/codziennemotto-pl-app",
+      "action": "Ukończono w 2023r. - Nie wdrożono",
+      "tags": ["Mithril", "Kotlin", "Webpack", "REST API", "CI", "Single Page Application", "Serwer", "Lista cytatów"]
+    },
+
+    {
+      "title": "CodzienneMotto.pl/Server",
+      "description": "Serwer REST API napisany we frameworku Spring. Serwer obsługuje aplikacje CodzienneMotto.pl/App. Pozwala na tworzenie list codziennych cytatów, zapraszanie do niej innych użytkowników tej listy poprzez kod dołączenia. Właściciel listy ma możliwość zmiany kolejności cytatów na liście lub zaplanowanie go na konkretny dzień oraz dodanie nowego cytatu. Może również zarządzać użytkownikami dodanymi już do swojej listy.",
+      "action": "Ukończono w 2023r. - Nie wdrożono",
+      "url": "https://www.github.com/kacperfaber/codziennemotto_pl_server",
+      "tags": ["Kotlin", "Spring", "Gradle", "REST API", "CI", "Serwer", "Lista cytatów"]
+    },
+
+    {
+      "title": "mithril-sql-presentation",
+      "description": "Responsywna strona internetowa napisana w frameworku Mithril oraz TypeScript jako prezentacja szkolna na temat SQL. Poza zwykłym przedstawieniem języka SQL zawiera interaktywne elementy pozwalające utworzyć schemat bazy danych oraz wykonać na niej testowe zapytanie oraz otrzymać jego wyniki w postaci tabeli danych. Żeby móc użyć interaktywnych elementów należy pobrać skrypt PHP z serwerem [Dostępny w repozytorium] i uruchomić go lokalnie, po czym w aplikacji ustawić jego adres. Strona jest dalej dostępna w internecie [Proszę zobaczyć README].",
+      "action": "Ukońcozno w 2023r.",
+      "url": "https://www.github.com/kacperfaber/mithril-sql-presentation",
+      "tags": ["TypeScript", "Mithril", "php", "SQL", "Bazy danych", "Single Page Application"]
+    },
+
+    {
+      "title": "FaceitAPI",
+      "description": "Mój pierwszy projekt opublikowany publicznie. Jest to wrapper API, obsługujący HTTP API do strony faceit.com. Po kliknięciu, zostaną państwo przekierowani do repozytorium zawierającego przykład użycia biblioteki, a także zawierającego link do pakietu na NuGet.com",
+      "action": "Opublikowano w 2019r.",
+      "url": "https://github.com/kacperfaber/FaceitAPI.Samples",
+      "tags": ["C#", "HTTP", "API Wrapper", "OAuth2"]
+    },
+
+    {
+      "title": "coronavirus-daily-report",
+      "description": "Serwer utworzony w 2021r., który utworzyłem dla własnego użytku. Serwer zapewniał codzienne raporty w postaci maili na temat sytuacji pandemicznej w Polsce i na świecie. Był to mój pierwszy pełny projekt w języku Kotlin. Serwer został już wyłączony.",
+      "action": "Utworzono w 2021r.",
+      "url": "https://github.com/kacperfaber/coronavirus-daily-report",
+      "tags": ["Kotlin", "SMTP", "thymeleaf", "covid-19", "Usługa w tle", "Codzienne raporty"]
+    },
+
+    {
+      "title": "wulkanowy",
+      "description": "Utworzenie nowej funkcjonalności w otwarto-źródłowej aplikacji Android - wulkanowy. Jest to nieoficjalna aplikacja dziennika szkolnego, do której dodałem funkcjonalność nazwaną kalkulatorem ocen. Można było utworzyć kalkulator z ocen z wybranego przedmiotu, lub dodać ten przedmiot do istniejącego kalkulatora. Na ekranie kalkulatora można było dodać ocenę, zmodyfikować istniejącą, zmienić jej wagę czyli generalnie zasymulować co się stanie gdy... Pull-Request został wysłany, narazie bez odpowiedzi.",
+      "action": "Zakończono w 2023r.",
+      "url": "https://github.com/wulkanowy/wulkanowy/pull/2114",
+      "tags": ["Kotlin", "Android", "Natywna aplikacja android", "MaterialUI", "Pull-Request", "Kalkulator ocen", "Dziennik szkolny"]
+    },
+
+    {
+      "title": "SandstoneLauncher",
+      "description": "Projekt launchera do gry minecraft, który rozpocząłem w 2019r. i niedługo potem ukończyłem pisać sekcje odpowiedzialną za pobieranie i instalowanie gry, oraz za jej odpowiednie uruchomienie. W 2023r. utworzyłem tam podprojekt odpowiedzialny za obsługę biblioteki poprzez CLI. W 2023r. rozpocząłem pisanie interfejsu użytkownika w Kotlin oraz Compose, ale nie zostało to jeszcze skończone.",
+      "action": "2019r. - W trakcie",
+      "url": "https://www.github.com/kacperfaber/SandstoneLauncher",
+      "tags": ["C#", "Biblioteka", "Minecraft", "CLI", "argparse"]
+    },
+
+    {
+      "title": "captcha-api",
+      "description": "Napisana z braku ciekawszych zajęć bardzo prosta, trywialna aplikacja serwera napisana w języku Python. Używa frameworka Flask, pozwala na generowanie obrazków captcha.",
+      "action": "Ukończono w 2022r.",
+      "url": "https://www.github.com/kacperfaber/captcha-api",
+      "tags": ["Python", "Flask", "REST API", "Generator captcha"]
+    },
+
+    {
+      "title": "TeamsHelper",
+      "description": "Serwer napisany na własny użytek w języku C#, synchronizujący kalendarz aplikacji Teams z kalendarzem google. Serwer raz na jakiś czas używając tokenów dostępu pobiera wszystkie zaplanowane wydarzenia z kalendarza Teams, oraz przepisuje je do kalendarza google. W celu wyeliminowania duplikatów, używa metadanych w kalendarzu google. Używałem tego programu na czas nauki zdalnej. Serwer został wyłączony.",
+      "action": "Ukończono w 2020r.",
+      "url": "https://github.com/kacperfaber/TeamsHelper",
+      "tags": ["C#", "OAuth2", "Serwer", "Kalendarz google", "Teams"]
+    },
+
+    {
+      "title": "SpotifyShuffler",
+      "description": "Aplikacja działająca po stronie serwera. Wyświetla interfejs użytkownika w formie widoku zwracanych z kontrolera, w schemacie MVC. Umożliwiała użytkownikowi zalogowanie się za pośrednictwem Spotify, wyświetlała mu jego playlisty i pozwalała posortować wybraną w sposób losowy. Przed wysłaniem zmian do spotify, pozwala użytkownikowi zatwierdzić lub losować kolejność ponownie. W celu optymalizacji wysyła więcej piosenek w jednym zapytaniu",
+      "action": "Ukończono w 2020r.",
+      "url": "https://github.com/kacperfaber/SpotifyShuffler",
+      "tags": ["C#", "Spotify", "OAuth2"]
+    },
+
+    {
+      "title": "6obcy-client",
+      "description": "Aplikacja napisana w języku Python, jako aplikacja kliencka czatu internetowego zgodnie z protokołem który sam udokumentowałem przy użyciu devtoolsów. Czat jest osadzony w terminalu, możemy go obsługiwać komendami np. aby połączyć się należy komendy /connect. Jedynym oknem w tej aplikacji jest okno weryfikacji captcha, które może się pojawić przy pierwszym połączeniu. W celu optymalnego używania strumienia wyjścia program używa flush oraz znaków specjalnych do odświeżania linijek, które zostały już zapełnione..",
+      "action": "Ukończono w 2021r.",
+      "url": "https://www.github.com/kacperfaber/6-obcy-client",
+      "tags": ["Python", "Tkinter", "WebSocket", "venv", "Klient czatu internetowego"]
+    },
+
+    {
+      "title": "kacperfaber-app",
+      "description": "Responsywna strona internertowa napisana w React. Pełni funkcję ciekawie wyglądającego portfolio, wyświetlające listę moich projektów, osiągnieć a także danych kontaktowych. Jest dostępna pod adresem kacperfaber.pl",
+      "url": "https://github.com/kacperfaber/kacperfaber-app",
+      "action": "Ukończono w 2023r.",
+      "tags": ["TypeScript", "React", "WebPack", "Portfolio", "Single Page Application", "Landing Page"]
+    },
+
+    {
+      "title": "kacperfaber-server",
+      "description": "Projekt serwera dla strony kacperfaber.pl napisany w języku Kotlin oraz frameworku Spring, w której administrator strony korzystający z dedykowanej aplikacji mógłby zmienić listę projektów widocznych na stronie, zmodyfikować je, zmienić ich kolejność a także odpowiadać na wiadomości wysłane poprzez specjalny formularz kontaktowy dostępny na stronie. Aktualnie nie ukończono i strona działa bez serwera API.",
+      "url": "https://www.github.com/kacperfaber/kacperfaber-server",
+      "action": "2023r. - W trakcie",
+      "tags": ["Kotlin", "Spring", "REST API", "Portfolio"]
+    },
+
+    {
+      "title": "kacperfaber-admin-app",
+      "description": "Napisana w React aplikacja przeznaczona dla administratora strony kacperfaber.pl, w której mógłby on zarządząć projektami, zmieniać ich kolejność, dodawać nowe oraz modyfikować istniejącę. Aktualnie nie ukończono.",
+      "url": "https://www.github.com/kacperfaber/kacperfaber-admin-app",
+      "action": "2023r. - W trakcie",
+      "tags": ["React", "TypeScript", "MUI", "data-grid", "acp", "Single Page Application" ,"Panel administratora"]
     }
   ]
 }
