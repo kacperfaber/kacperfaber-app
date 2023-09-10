@@ -85,7 +85,7 @@
       "description": "Serwer utworzony w 2021r., który utworzyłem dla własnego użytku. Serwer zapewniał codzienne raporty w postaci maili na temat sytuacji pandemicznej w Polsce i na świecie. Był to mój pierwszy pełny projekt w języku Kotlin. Serwer został już wyłączony.",
       "action": "Utworzono w 2021r.",
       "url": "https://github.com/kacperfaber/coronavirus-daily-report",
-      "tags": ["Kotlin", "SMTP", "thymeleaf", "covid-19", "Usługa w tle", "Codzienne raporty"]
+      "tags": ["Kotlin", "Maven", "Hibernate", "SMTP", "Thymeleaf", "covid-19", "Usługa w tle", "Codzienne raporty", "Newsletter"]
     },
 
     {
