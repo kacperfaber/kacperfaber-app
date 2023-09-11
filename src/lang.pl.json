@@ -2,7 +2,13 @@
   "all": {
     "projects": "Projekty",
     "achievements": "Osiągnięcia",
-    "skills": "Umiejętności"
+    "skills": "Umiejętności",
+    "chapters": {
+      "bio": "O mnie",
+      "projects": "Projekty",
+      "achievements": "Osiągnięcia",
+      "skills": "Umiejętności"
+    }
   },
   "index": {
     "header": {

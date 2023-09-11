@@ -30,10 +30,10 @@ export const styles = {
             position: 'sticky',
             top: 100,
             left: 0,
-            height: '100vh',
+            height: '75vh',
             width: '100%',
             display: 'flex',
-            justifyContent: 'center',
+            justifyContent: 'space-between',
             alignItems: 'center',
             flexDirection: 'column',
         },
@@ -115,7 +115,16 @@ export const styles = {
     },
 
     indexHeaderName: {
-        flex: .75
+        // flex: 0.4
+    },
+
+    chapterItem: {
+        color: colors.secondary,
+        transition: "color 0.1s ease-in-out"
+    },
+
+    chapterItemActive: {
+        color: colors.onBackground
     },
 
     indexHeaderLinks: {
