@@ -4,6 +4,7 @@ import {useTranslation} from "react-i18next";
 import {AchievementDef} from "../../../../../commons/achievementDef";
 import {ListItem} from "../../../../../components/baseList/listItem";
 import {TextSecAction} from "../../../../../components/text/textSecAction";
+import {getKey} from "../../../../../commons/getKey";
 
 export const AchievementItem = ({item}: { item: AchievementDef }) => {
     return (
@@ -23,7 +24,7 @@ export const IndexContent_AchievementSection = () => {
         <Index_ContentSection title={t("all.achievements")}>
             <ListContainer>
                 {
-                    getAchievements().map(item => <AchievementItem key={item.title.length} item={item}/>)
+                    getAchievements().map(item => <AchievementItem key={getKey(item.title)} item={item}/>)
                 }
             </ListContainer>
         </Index_ContentSection>
