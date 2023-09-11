@@ -142,8 +142,8 @@ export const styles = {
     baseIndexSection: {
         display: 'flex',
         justifyContent: 'center',
-        alignItems: 'center',
-        flexDirection: 'column'
+        flexDirection: 'column',
+        paddingTop: '50px'
     },
 
     baseListContainer: {
@@ -185,6 +185,19 @@ export const styles = {
         "& h2": {
             margin: 0,
             lineHeight: 0
+        }
+    },
+
+    button: {
+        color: 'rgb(94 234 212)',
+        backgroundColor: 'rgba(45,212,191,.1)',
+        padding: '10px',
+        borderRadius: '50px',
+        border: 'none',
+        transition: 'background-color 0.1s ease-in-out',
+
+        "&:hover":{
+            backgroundColor: 'rgba(45,212,191,0.24)'
         }
     },
 
