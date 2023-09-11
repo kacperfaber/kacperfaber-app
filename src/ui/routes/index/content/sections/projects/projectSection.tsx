@@ -4,6 +4,7 @@ import {ListContainer} from "../../../../../components/baseList/baseList";
 import {ListItem} from "../../../../../components/baseList/listItem";
 import {ProjectDef} from "../../../../../commons/projectDef";
 import {TextSecAction} from "../../../../../components/text/textSecAction";
+import {SectionIds} from "../sectionIds";
 
 const ProjectItem = ({proj}: {proj: ProjectDef}) => {
     return (
@@ -26,12 +27,14 @@ export const IndexContent_ProjectSection = () => {
     }
 
     return (
-        <Index_ContentSection title={t("all.projects")}>
-            <ListContainer>
-                {
-                    getProjects().map(proj => <ProjectItem proj={proj}/>)
-                }
-            </ListContainer>
-        </Index_ContentSection>
+        <div id={SectionIds.projects}>
+            <Index_ContentSection title={t("all.projects")}>
+                <ListContainer>
+                    {
+                        getProjects().map(proj => <ProjectItem proj={proj}/>)
+                    }
+                </ListContainer>
+            </Index_ContentSection>
+        </div>
     );
 }

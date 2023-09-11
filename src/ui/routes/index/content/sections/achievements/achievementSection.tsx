@@ -5,6 +5,7 @@ import {AchievementDef} from "../../../../../commons/achievementDef";
 import {ListItem} from "../../../../../components/baseList/listItem";
 import {TextSecAction} from "../../../../../components/text/textSecAction";
 import {getKey} from "../../../../../commons/getKey";
+import {SectionIds} from "../sectionIds";
 
 export const AchievementItem = ({item}: { item: AchievementDef }) => {
     return (
@@ -21,12 +22,14 @@ export const IndexContent_AchievementSection = () => {
     }
 
     return (
-        <Index_ContentSection title={t("all.achievements")}>
-            <ListContainer>
-                {
-                    getAchievements().map(item => <AchievementItem key={getKey(item.title)} item={item}/>)
-                }
-            </ListContainer>
-        </Index_ContentSection>
+        <div id={SectionIds.achievements}>
+            <Index_ContentSection title={t("all.achievements")}>
+                <ListContainer>
+                    {
+                        getAchievements().map(item => <AchievementItem key={getKey(item.title)} item={item}/>)
+                    }
+                </ListContainer>
+            </Index_ContentSection>
+        </div>
     );
 }
