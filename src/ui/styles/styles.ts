@@ -55,7 +55,13 @@ export const styles = {
             justifyContent: 'space-between',
             flexDirection: 'column',
             alignItems: 'left'
-        }
+        },
+
+        indexHeaderChapters: {
+            display: 'flex',
+            flexDirection: 'column',
+            justifyContent: 'left'
+        },
     },
 
     "@media(max-width: 1024px)": {
@@ -70,14 +76,16 @@ export const styles = {
             flexDirection: 'column'
         },
 
-        indexContent: {
+        indexContent: {},
 
+        indexHeaderChapters: {
+            display: 'none'
         }
     },
 
     "@media(min-width: 1400px)": {
         indexHeaderName: {
-            "& h1":{
+            "& h1": {
                 fontSize: '4rem',
                 margin: 0
             },
@@ -91,7 +99,7 @@ export const styles = {
 
     "@media(max-width: 1400px)": {
         indexHeaderName: {
-            "& h1":{
+            "& h1": {
                 fontSize: '3rem'
             },
 
@@ -118,9 +126,23 @@ export const styles = {
         // flex: 0.4
     },
 
+
+
     chapterItem: {
         color: colors.secondary,
-        transition: "color 0.1s ease-in-out"
+        transition: "color 0.1s ease-in-out",
+
+        border: 'none',
+        backgroundColor: 'transparent',
+        paddingBottom: '15px',
+
+        "&:hover": {
+            color: colors.onBackground
+        },
+
+        "& h4": {
+            margin: '0 0 0 0'
+        }
     },
 
     chapterItemActive: {
@@ -174,7 +196,7 @@ export const styles = {
         backgroundColor: 'rgba(255, 255, 255, 0)',
         transition: 'background-color 0.1s ease-in-out',
 
-        "&:hover":{
+        "&:hover": {
             backgroundColor: 'rgba(255, 255, 255, 0.1)',
             cursor: 'pointer'
         }
@@ -205,7 +227,7 @@ export const styles = {
         border: 'none',
         transition: 'background-color 0.1s ease-in-out',
 
-        "&:hover":{
+        "&:hover": {
             backgroundColor: 'rgba(45,212,191,0.24)'
         }
     },
@@ -222,5 +244,7 @@ export const styles = {
         color: 'rgb(94 234 212)',
         backgroundColor: 'rgba(45,212,191,.1)',
         margin: [5, 5]
-    }
+    },
+
+    indexHeaderChapters: {}
 }

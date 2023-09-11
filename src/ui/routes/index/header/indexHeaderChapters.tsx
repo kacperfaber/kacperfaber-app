@@ -32,16 +32,24 @@ export const Chapters: Array<ChapterItemDef> = [
     }
 ];
 
-const ChapterItem = ({chapter, isActive}: {isActive: boolean, chapter: Chapter}) => {
+const ChapterItem = ({chapter, isActive}: {isActive: boolean, chapter: ChapterItemDef}) => {
     const {t} = useTranslation();
     const classes = useStyles();
+
+    const navTo = () => {
+        document.getElementById(chapter.id)!!.scrollIntoView({behavior: 'smooth'});
+    }
+
     return (
-        <h5 className={`${classes.chapterItem} ${isActive ? classes.chapterItemActive : ''}`}>{t(`chapters.${chapter}`)}</h5>
+        <button onClick={navTo} className={`${classes.chapterItem} ${isActive ? classes.chapterItemActive : ''}`}>
+            <h4>{t(`all.chapters.${chapter.chapter}`)}</h4>
+        </button>
     )
 }
 
 export const IndexHeader_Chapters = () => {
     const [active, setActive] = useState<Chapter>("bio");
+    const classes = useStyles();
 
     const onScroll = () => {
         const windowHeight = window.innerHeight;
@@ -65,9 +73,9 @@ export const IndexHeader_Chapters = () => {
     }, []);
 
     return (
-        <div style={{display: 'flex', flexDirection: 'column', justifyContent: 'left'}}>
+        <div className={classes.indexHeaderChapters}>
             {
-                Chapters.map(chapter => <ChapterItem key={chapter.chapter} chapter={chapter.chapter} isActive={chapter.chapter == active}/>)
+                Chapters.map(chapter => <ChapterItem key={chapter.chapter} chapter={chapter} isActive={chapter.chapter == active}/>)
             }
         </div>
     )
