@@ -1,16 +1,9 @@
 import {Index_ContentSection} from "../indexContentSection";
 import {useTranslation} from "react-i18next";
-import {useStyles} from "../../../../../styles/useStyles";
 import {ListContainer} from "../../../../../components/baseList/baseList";
 import {ListItem} from "../../../../../components/baseList/listItem";
 import {ProjectDef} from "../../../../../commons/projectDef";
-
-const TextSecAction = ({text}: { text: string }) => {
-    const classes = useStyles();
-    return (
-        <p className={classes.textSecondary}>{text}</p>
-    );
-}
+import {TextSecAction} from "../../../../../components/text/textSecAction";
 
 const ProjectItem = ({proj}: {proj: ProjectDef}) => {
     return (
