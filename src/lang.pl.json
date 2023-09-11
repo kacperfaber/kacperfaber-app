@@ -174,5 +174,109 @@
       "description": "kwalifikacja INF.03 (Programowanie i bazy danych). Na egzaminie trzeba było utworzyć bazę danych, napisać parę przykładowych poleceń, utworzyć stronę internetową z wykorzystaniem HTML, CSS oraz JavaScript.",
       "secondary": "98% - Styczeń 2023r."
     }
+  ],
+
+  "__skills": [
+    {
+      "title": "Git",
+      "secondary": "Umiejętność obsługi systemu kontroli wersji Git oraz platformy github.com",
+      "action": "Od 2019r."
+    },
+
+    {
+      "title": "HTTP",
+      "secondary": "Umiejętność obsługi protokołu HTTP",
+      "action": "Od 2019r."
+    },
+
+    {
+      "title": "OAuth2",
+      "secondary": "Umiejętność obsługi protokołu OAuth2, napisałem kilka aplikacji wykorzystujących ten protokół np. TeamsHelper, SpotifyShuffler...",
+      "action": "Od 2020r."
+    },
+
+    {
+      "title": "CI/CD",
+      "secondary": "Używam Continuos-Integration oraz Continuos-Deployment w wielu moich projektach. Np. ta strona.",
+      "action": "Od 2023r."
+    },
+
+    {
+      "title": "Swagger",
+      "secondary": "Znajomość pakietu Swagger, który służy do tworzenia interaktywnych dokumentacji API. Potrafię pisać dokumentację swagger samodzielnie w edytorze tekstu oraz generować (np. codziennemotto_pl_server) je automatycznie np. kacperfaber-server",
+      "action": "Od 2023r."
+    },
+
+    {
+      "title": "Mithril",
+      "secondary": "Mithril to framework służący do pisania aplikacji Single-Page po stronie klienta. Nauczyłem się go używać przy okazji projektu mithril-sql-presentation, a potem poprawiłem swoją wiedzę przy projekcie codziennemotto-pl-app.",
+      "action": "Od 2023r."
+    },
+
+    {
+      "title": "React",
+      "secondary": "React to framework służący do pisania aplikacji Single-Page, napisałem w nim projekt chesstasks-app, a następne są w trakcie.",
+      "action": "Od 2023r."
+    },
+
+    {
+      "title": "Ktor",
+      "secondary": "Ktor to framework przeznaczony dla języka Kotlin do serwerów oraz aplikacji. Napisałem w nim projekt chesstasks-server",
+      "action": "Od 2023r."
+    },
+
+    {
+      "title": "Kotlin",
+      "secondary": "Język programowania mający zastąpić Jave oraz z nią kompatybilny, pozwala znacznie ograniczyć ilość pisanego kodu.",
+      "action": "Od 2022r."
+    },
+
+    {
+      "title": "Java",
+      "secondary": "Wysoko poziomowy język programowania wypuszczony w 1996r.",
+      "action": "Od 2021r."
+    },
+
+    {
+      "title": "C#",
+      "secondary": "",
+      "action": "Od 2017r."
+    },
+
+    {
+      "title": "TypeScript",
+      "secondary": "",
+      "action": "Od 2023r."
+    },
+
+    {
+      "title": "Gradle",
+      "secondary": "",
+      "action": "Od 2021r."
+    },
+
+    {
+      "title": "Maven",
+      "secondary": "",
+      "action": "Od 2021r."
+    },
+
+    {
+      "title": "npm",
+      "secondary": "",
+      "action": "Od 2023r."
+    },
+
+    {
+      "title": "JSONPath",
+      "secondary": "",
+      "action": "Od 2022r."
+    },
+
+    {
+      "title": "Regex",
+      "secondary": "",
+      "action": "Od 2019r."
+    }
   ]
 }
