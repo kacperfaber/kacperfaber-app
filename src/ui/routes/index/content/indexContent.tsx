@@ -2,6 +2,7 @@ import {useStyles} from "../../../styles/useStyles";
 import {Index_ContentBio} from "./indexContentBio";
 import {IndexContent_ProjectSection} from "./sections/projects/projectSection";
 import {IndexContent_AchievementSection} from "./sections/achievements/achievementSection";
+import {IndexContent_SkillSection} from "./sections/skills/skillsSection";
 
 export const Index_Content = () => {
     const classes = useStyles();
@@ -12,6 +13,8 @@ export const Index_Content = () => {
             <IndexContent_AchievementSection/>
 
             <IndexContent_ProjectSection/>
+
+            <IndexContent_SkillSection/>
         </div>
     )
 }
