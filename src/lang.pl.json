@@ -178,105 +178,136 @@
 
   "__skills": [
     {
+      "title": "Język Angielski",
+      "secondary": "Na poziomie komunikatywnym",
+      "actions": "",
+      "tags": ["Język Angielski"]
+    },
+
+    {
+      "title": "Testy",
+      "secondary": "Umiejętność pisania testów jednostkowych oraz integracyjnych w popularnych frameworkach takich jak JUnit, xUnit. W moich aplikacjach serwerowych testuję również bardzo dobrze endpointy HTTP.",
+      "actions": "Od 2019r.",
+      "tags": ["jest", "JUnit5", "xUnit", "CodzienneMotto.pl/Server", "ChessTasks.com/Server", "chlss", "wsl"]
+    },
+
+    {
       "title": "Git",
       "secondary": "Umiejętność obsługi systemu kontroli wersji Git oraz platformy github.com",
-      "action": "Od 2019r."
+      "action": "Od 2019r.",
+      "tags": ["Wszystkie widoczne tu projekty..."]
     },
 
     {
       "title": "HTTP",
       "secondary": "Umiejętność obsługi protokołu HTTP",
-      "action": "Od 2019r."
+      "action": "Od 2019r.",
+      "tags": ["ChessTasks.com/Server", "CodzienneMotto.pl/Server", "SpotifyShuffler", "TeamsHelper"]
     },
 
     {
       "title": "OAuth2",
       "secondary": "Umiejętność obsługi protokołu OAuth2, napisałem kilka aplikacji wykorzystujących ten protokół np. TeamsHelper, SpotifyShuffler...",
-      "action": "Od 2020r."
+      "action": "Od 2020r.",
+      "tags": ["SpotifyShuffler", "TeamsHelper", "FaceitAPI"]
     },
 
     {
       "title": "CI/CD",
       "secondary": "Używam Continuos-Integration oraz Continuos-Deployment w wielu moich projektach. Np. ta strona.",
-      "action": "Od 2023r."
+      "action": "Od 2023r.",
+      "tags": ["kacperfaber-server", "chesstasks-server", "codziennemotto_pl_server", "wsl", "chlss", "..."]
     },
 
     {
       "title": "Swagger",
       "secondary": "Znajomość pakietu Swagger, który służy do tworzenia interaktywnych dokumentacji API. Potrafię pisać dokumentację swagger samodzielnie w edytorze tekstu oraz generować (np. codziennemotto_pl_server) je automatycznie np. kacperfaber-server",
-      "action": "Od 2023r."
+      "action": "Od 2023r.",
+      "tags": ["kacperfaber-server", "chesstasks-server", "codziennemotto_pl_server"]
     },
 
     {
       "title": "Mithril",
       "secondary": "Mithril to framework służący do pisania aplikacji Single-Page po stronie klienta. Nauczyłem się go używać przy okazji projektu mithril-sql-presentation, a potem poprawiłem swoją wiedzę przy projekcie codziennemotto-pl-app.",
-      "action": "Od 2023r."
+      "action": "Od 2023r.",
+      "tags": ["CodzienneMotto.pl/Server", "mithril-sql-presentation"]
     },
 
     {
       "title": "React",
       "secondary": "React to framework służący do pisania aplikacji Single-Page, napisałem w nim projekt chesstasks-app, a następne są w trakcie.",
-      "action": "Od 2023r."
+      "action": "Od 2023r.",
+      "tags": ["ChessTasks.com/App", "kacperfaber-app", "kacperfaber-admin-app"]
     },
 
     {
       "title": "Ktor",
       "secondary": "Ktor to framework przeznaczony dla języka Kotlin do serwerów oraz aplikacji. Napisałem w nim projekt chesstasks-server",
-      "action": "Od 2023r."
+      "action": "Od 2023r.",
+      "tags": ["ChessTasks.com/Server"]
     },
 
     {
       "title": "Kotlin",
       "secondary": "Język programowania mający zastąpić Jave oraz z nią kompatybilny, pozwala znacznie ograniczyć ilość pisanego kodu.",
-      "action": "Od 2022r."
+      "action": "Od 2022r.",
+      "tags": ["ChessTasks.com/Server", "CodzienneMotto.pl/Server", "coronavirus-daily-report", "kacperfaber-server", "wulkanowy", "..."]
     },
 
     {
       "title": "Java",
       "secondary": "Wysoko poziomowy język programowania wypuszczony w 1996r.",
-      "action": "Od 2021r."
+      "action": "Od 2021r.",
+      "tags": ["webSocketLibrary"]
     },
 
     {
       "title": "C#",
       "secondary": "",
-      "action": "Od 2017r."
+      "action": "Od 2017r.",
+      "tags": ["Spencer.NET", "TeamsHelper", "SpotifyShuffler", "FaceitAPI", "SandstoneLauncher"]
     },
 
     {
       "title": "TypeScript",
       "secondary": "",
-      "action": "Od 2023r."
+      "action": "Od 2023r.",
+      "tags": ["CodzienneMotto.pl/App", "ChessTasks.com/App", "mithril-sql-presentation", "kacperfaber-app", "kacperfaber-admin-app"]
     },
 
     {
       "title": "Gradle",
       "secondary": "",
-      "action": "Od 2021r."
+      "action": "Od 2021r.",
+      "tags": ["CodzienneMotto.pl/Server", "ChessTasks.com/Server", "wulkanowy", "kacperfaber-server"]
     },
 
     {
       "title": "Maven",
       "secondary": "",
-      "action": "Od 2021r."
+      "action": "Od 2021r.",
+      "tags": ["webSocketLibrary", "coronavirus-daily-report"]
     },
 
     {
       "title": "npm",
-      "secondary": "",
-      "action": "Od 2023r."
+      "secondary": "O znajomości npm, czyli node package manager świadczą liczne projekty w TypeScript, oraz moja biblioteka chlss opublikowana w npm.",
+      "action": "Od 2023r.",
+      "tags": ["chlss", "CodzienneMotto.pl/App", "ChessTasks.com/App", "kacperfaber-app", "kacperfaber-admin-app"]
     },
 
     {
       "title": "JSONPath",
-      "secondary": "",
-      "action": "Od 2022r."
+      "secondary": "Znajomość JSONPath wykorzystuję głównie przy okazji testów integracyjnych w których sprawdzam poprawność odpowiedzi HTTP.",
+      "action": "Od 2022r.",
+      "tags": ["ChessTasks.com/Server", "ChessTasks.com/Server"]
     },
 
     {
       "title": "Regex",
       "secondary": "",
-      "action": "Od 2019r."
+      "action": "Od 2019r.",
+      "tags": ["C#", "Kotlin", "JavaScript"]
     }
   ]
 }

@@ -8,7 +8,7 @@ import {getKey} from "../../../../../commons/getKey";
 
 export const SkillItem = ({item}: { item: SkillDef }) => {
     return (
-        <ListItem tags={[]}
+        <ListItem tags={item.tags}
                   secondary={item.secondary}
                   primary={item.title}
                   action={<TextSecAction text={item.action}/>}/>
