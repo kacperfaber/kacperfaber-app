@@ -178,16 +178,23 @@
 
   "__skills": [
     {
+      "title": "SSH",
+      "secondary": "Umiejętność zarządzania serwerem linux poprzez SSH. Aktualnie posiadam trzy serwery zdalne",
+      "action": "Od 2020r.",
+      "tags": ["wsl", "chlss", "CodzienneMotto.pl/Server", "ChessTasks.com/Server"]
+    },
+
+    {
       "title": "Język Angielski",
       "secondary": "Na poziomie komunikatywnym",
-      "actions": "",
+      "action": "",
       "tags": ["Język Angielski"]
     },
 
     {
       "title": "Testy",
       "secondary": "Umiejętność pisania testów jednostkowych oraz integracyjnych w popularnych frameworkach takich jak JUnit, xUnit. W moich aplikacjach serwerowych testuję również bardzo dobrze endpointy HTTP.",
-      "actions": "Od 2019r.",
+      "action": "Od 2019r.",
       "tags": ["jest", "JUnit5", "xUnit", "CodzienneMotto.pl/Server", "ChessTasks.com/Server", "chlss", "wsl"]
     },
 
