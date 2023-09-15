@@ -18,7 +18,7 @@
     },
     "content": {
       "bio": {
-        "text": "Lorem Ipsum Dollor Sit Ammet. Lorem Ipsum Dollor Sit Ammet. Lorem Ipsum Dollor Sit Ammet. Lorem Ipsum Dollor Sit Ammet. Lorem Ipsum Dollor Sit Ammet. Lorem Ipsum Dollor Sit Ammet. "
+        "text": "Swoją przygodę z programowaniem zacząłem w styczniu 2017r. .\n<br><br>\nOd tego czasu nauczyłem się wielu ciekawych języków i technologii. \nPoznałem genialny system kontroli wersji Git, bez którego nie wyobrażam sobie pracy.\nZrozumiałem protokoły HTTP oraz WebSocket.\n<br><br>\nPoznałem wiele bibliotek i frameworków takich jak Spring, Ktor, Compose, React, Mithril, Koin oraz systemy służące do kompilacji takie jak Gradle, Maven czy WebPack. Jestem również właścicielem kilku własnych bibliotek opublikowanych na npm, nuget oraz maven.\n<br><br>\nWykonywałem projekty w C#, Java oraz w moim ulubionym - w Kotlinie, oraz projekty w języku TypeScript. Projekty aplikacji webowych, mobilnych oraz tych przeglądarkowych. Aplikacji i bibliotek, które używam w kolejnych moich projektach.\n<br><br>\nW swoich projektach używam testów jednostkowych i integracyjnych, aby mieć pewność o poprawnym działaniu moich programów. A także systemów automatycznego wdrażania i testowania, by zapewnić szybką produkcję projektu poprzez jeden 'git push'.<br><br>\nWszystkie projekty wykonuję jak najlepiej, często ucząc się nowych rzeczy i szukając najbardziej optymalnych rozwiązań. Nie lubię chodzić na skróty i chcę zapewnić użytkownikom taki komfort, jakiego sam bym oczekiwał."
       }
     }
   },
