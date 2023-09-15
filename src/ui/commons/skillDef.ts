@@ -1,6 +1,6 @@
 export type SkillDef = {
     title: string;
-    secondary: string;
+    description: string;
     action: string;
     tags: string[];
 }

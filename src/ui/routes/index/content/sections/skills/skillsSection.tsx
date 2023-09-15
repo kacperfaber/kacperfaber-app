@@ -10,7 +10,7 @@ import {SectionIds} from "../sectionIds";
 export const SkillItem = ({item}: { item: SkillDef }) => {
     return (
         <ListItem tags={item.tags}
-                  secondary={item.secondary}
+                  secondary={item.description}
                   primary={item.title}
                   action={<TextSecAction text={item.action}/>}/>
     )
