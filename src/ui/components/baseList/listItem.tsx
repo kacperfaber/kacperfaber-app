@@ -1,6 +1,7 @@
 import {ReactNode} from "react";
 import {useStyles} from "../../styles/useStyles";
 import {Tag} from "../tag/tag";
+import {getKey} from "../../commons/getKey";
 
 export interface ListItemProps {
     primary: string;
@@ -27,7 +28,7 @@ export const ListItem = (props: ListItemProps) => {
 
                 <div className={classes.baseListItemTags}>
                     {
-                        props.tags.map(tag => <Tag key={tag} text={tag}></Tag>)
+                        props.tags.map(tag => <Tag key={getKey(`${props.primary} ${tag}`)} text={tag}></Tag>)
                     }
                 </div>
             </div>

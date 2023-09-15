@@ -5,6 +5,7 @@ import {ListItem} from "../../../../../components/baseList/listItem";
 import {ProjectDef} from "../../../../../commons/projectDef";
 import {TextSecAction} from "../../../../../components/text/textSecAction";
 import {SectionIds} from "../sectionIds";
+import {getKey} from "../../../../../commons/getKey";
 
 const ProjectItem = ({proj}: {proj: ProjectDef}) => {
     return (
@@ -31,7 +32,7 @@ export const IndexContent_ProjectSection = () => {
             <Index_ContentSection title={t("all.projects")}>
                 <ListContainer>
                     {
-                        getProjects().map(proj => <ProjectItem proj={proj}/>)
+                        getProjects().map(proj => <ProjectItem key={getKey(proj.description)} proj={proj}/>)
                     }
                 </ListContainer>
             </Index_ContentSection>
