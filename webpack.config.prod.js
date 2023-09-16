@@ -9,7 +9,9 @@ module.exports = (env) => {
             stackoverflow: env.stackoverflow,
             emailTo: env.emailTo,
             twitter: env.twitter
-        }
+        },
+
+        contactEmail: env.contactEmail
     }
 
     return merge(baseCfg, {

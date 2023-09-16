@@ -7,6 +7,7 @@ export type Links = {
 
 export type Config = {
     links: Links;
+    contactEmail?: string;
 }
 
 export const AppConfig = process.env.APPCONFIG as unknown as Config;
