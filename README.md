@@ -40,6 +40,7 @@ Make bundle using webpack
 # $ twitter: Url to twitter profile
 # $ stackoverflow: Url to stackoverflow profile
 # $ emailTo: Contact email address, must start with mailto.
+# $ contactEmail: Contact email will be rendered under the 'Kacper Faber'
 npx webpack --config webpack.config.prod.js
 ```
 
