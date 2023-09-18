@@ -100,11 +100,14 @@ export const styles = {
     "@media(max-width: 1400px)": {
         indexHeaderName: {
             "& h1": {
-                fontSize: '3rem'
+                fontSize: '3rem',
+                margin: 0,
+                marginTop: '25px'
             },
 
             "& h3": {
-                fontSize: '3rem'
+                fontSize: '3rem',
+                margin: 0
             }
         }
     },
