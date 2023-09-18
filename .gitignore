@@ -12,3 +12,6 @@ node_modules/
 
 # build
 www/dist/compile-js/app.js
+
+# generated license from www/
+www/third-party-licenses.txt
