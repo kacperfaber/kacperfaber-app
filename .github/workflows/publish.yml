@@ -25,7 +25,7 @@ jobs:
       run: npx tsc && npx webpack --config webpack.config.prod.js
         --env contactEmail="${{ vars.contactEmail }}"
         --env emailTo="${{ vars.emailTo }}"
-        --env githubUrl="https://www.github.com/kacperfaber"
+        --env github="https://www.github.com/kacperfaber"
         --env stackoverflow="https://stackoverflow.com/users/8106461/kacperfaber"
 
     - name: Run install script
