@@ -1,7 +1,6 @@
 import {useStyles} from "../../../styles/useStyles";
 import {Index_ContentBio} from "./indexContentBio";
 import {IndexContent_ProjectSection} from "./sections/projects/projectSection";
-import {IndexContent_AchievementSection} from "./sections/achievements/achievementSection";
 import {IndexContent_SkillSection} from "./sections/skills/skillsSection";
 
 export const Index_Content = () => {
@@ -9,8 +8,6 @@ export const Index_Content = () => {
     return (
         <div className={classes.indexContent}>
             <Index_ContentBio/>
-
-            <IndexContent_AchievementSection/>
 
             <IndexContent_ProjectSection/>
 

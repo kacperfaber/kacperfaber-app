@@ -3,7 +3,7 @@ import {SectionIds} from "../content/sections/sectionIds";
 import {useTranslation} from "react-i18next";
 import {useStyles} from "../../../styles/useStyles";
 
-export type Chapter = "bio" | "projects" | "achievements" | "skills";
+export type Chapter = "bio" | "projects" | "skills";
 
 export type ChapterItemDef = {
     chapter: Chapter;
@@ -14,11 +14,6 @@ export const Chapters: Array<ChapterItemDef> = [
     {
         chapter: "bio",
         id: SectionIds.bio
-    },
-
-    {
-        chapter: "achievements",
-        id: SectionIds.achievements
     },
 
     {

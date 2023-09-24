@@ -284,18 +284,6 @@
       ]
     }
   ],
-  "__achievements": [
-    {
-      "title": "Ukończenie technikum",
-      "description": "Pod kierunkiem technik informatyk - profil kształcenia zawierał zajęcią informatyczno-programistyczne oraz matematykę na poziomie rozszerzonym",
-      "action": "Kwiecień 2023r."
-    },
-    {
-      "title": "Egzamin zawodowy",
-      "description": "kwalifikacja INF.03 (Programowanie i bazy danych). Na egzaminie trzeba było utworzyć bazę danych, napisać parę przykładowych poleceń, utworzyć stronę internetową z wykorzystaniem HTML, CSS oraz JavaScript.",
-      "secondary": "98% - Styczeń 2023r."
-    }
-  ],
   "__skills": [
     {
       "title": "Języki programowania",
