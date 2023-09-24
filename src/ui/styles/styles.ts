@@ -98,6 +98,10 @@ export const styles = {
 
         baseListItemAction: {
             flex: 0.2
+        },
+
+        baseListItem: {
+            justifyContent: 'left'
         }
     },
 
@@ -117,6 +121,10 @@ export const styles = {
 
         baseListItemAction: {
             display: 'none'
+        },
+
+        baseListItem: {
+            justifyContent: 'center'
         }
     },
 
@@ -200,7 +208,6 @@ export const styles = {
     baseListItem: {
         width: '100%',
         display: 'flex',
-        justifyContent: 'left',
         flexDirection: 'row',
         padding: '20px',
         borderRadius: '30px',
