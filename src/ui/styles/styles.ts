@@ -94,6 +94,10 @@ export const styles = {
                 fontSize: '2rem',
                 margin: 0
             }
+        },
+
+        baseListItemAction: {
+            flex: 0.2
         }
     },
 
@@ -109,6 +113,10 @@ export const styles = {
                 fontSize: '3rem',
                 margin: 0
             }
+        },
+
+        baseListItemAction: {
+            display: 'none'
         }
     },
 
@@ -206,7 +214,6 @@ export const styles = {
     },
 
     baseListItemAction: {
-        flex: 0.2
     },
 
     baseListItemContent: {
