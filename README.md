@@ -1,6 +1,9 @@
-# kacperfaber.pl
+#  kacperfaber.pl 
 
-Source code for kacperfaber.pl.
+[![build](https://github.com/kacperfaber/kacperfaber-app/actions/workflows/build.yml/badge.svg)](https://github.com/kacperfaber/kacperfaber-app/actions/workflows/build.yml)
+[![publish](https://github.com/kacperfaber/kacperfaber-app/actions/workflows/publish.yml/badge.svg)](https://github.com/kacperfaber/kacperfaber-app/actions/workflows/publish.yml)
+
+🎈 Source code for kacperfaber.pl.  🎈
 <br>
 Written with ❤ in TypeScript and React
 
