@@ -24,6 +24,24 @@ export const styles = {
         justifyContent: 'center'
     },
 
+    appFooter: {
+        width: '100%',
+        height: '100px',
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        flexDirection: 'column'
+    },
+
+    textButton: {
+        textDecoration: 'none',
+        color: colors.secondary,
+
+        "&:hover": {
+            color: 'white'
+        }
+    },
+
     "@media(min-width: 1024px)": {
         indexHeader: {
             flex: 1,
