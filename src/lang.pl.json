@@ -14,7 +14,7 @@
   "index": {
     "header": {
       "name": "Kacper Faber",
-      "sub": "Programista"
+      "sub": "Full Stack Developer"
     },
     "content": {
       "bio": {
@@ -58,35 +58,6 @@
       ]
     },
     {
-      "title": "chlss",
-      "description": "Biblioteka szachową którą napisałem w TypeScript oraz opublikowałem w npm. Ponadto napisałem parę skryptów w Python żeby sprawdzić zgodność wyników z innym działającym programem. Używam jej jako zależności w innym moim projekcie - ChessTasks.com",
-      "url": "https://www.github/com/kacperfaber/chlss",
-      "action": "Ukończono w 2023r.",
-      "tags": [
-        "TypeScript",
-        "npm",
-        "Silnik Szachowy",
-        "Jest",
-        "Python",
-        "CI/CD"
-      ]
-    },
-    {
-      "title": "wulkanowy",
-      "description": "Utworzenie nowej funkcjonalności w otwarto-źródłowej aplikacji Android - wulkanowy. Jest to nieoficjalna aplikacja dziennika szkolnego, do której dodałem funkcjonalność nazwaną kalkulatorem ocen. Można było utworzyć kalkulator z ocen z wybranego przedmiotu, lub dodać ten przedmiot do istniejącego kalkulatora. Na ekranie kalkulatora można było dodać ocenę, zmodyfikować istniejącą, zmienić jej wagę czyli generalnie zasymulować co się stanie gdy... Pull-Request został wysłany, narazie bez odpowiedzi.",
-      "action": "Zakończono w 2023r.",
-      "url": "https://github.com/wulkanowy/wulkanowy/pull/2114",
-      "tags": [
-        "Kotlin",
-        "Android",
-        "Natywna aplikacja android",
-        "MaterialUI",
-        "Pull-Request",
-        "Kalkulator ocen",
-        "Dziennik szkolny"
-      ]
-    },
-    {
       "title": "CodzienneMotto.pl/App",
       "description": "Aplikacja wieloplatformowa napisana we frameworku Mithril, jako aplikacja kliencka serwera CodzienneMotto.pl/server. Pozwala na tworzenie list codziennych cytatów i udostępnianie ich innym użytkownikom aplikacji. Użytkownik może dołączyć do naszej listy poprzez kod zaproszenia. Użytkownik widzi tylko dzisiejsze motto i elementy które zostały już pokazane wcześniej. Właściciel listy może zarządzać listą, tworzyć cytaty jako elementy tej listy, zarządzać użytkownikami, wysyłać kody do dołączenia, edytować elementy listy. Docelowo właściciel będzie mógł zaplanować cytat na konkretny dzień lub zmienić kolejność [aktualnie to obsługiwane tylko na serwerze]",
       "url": "https://www.github/com/kacperfaber/codziennemotto-pl-app",
@@ -117,12 +88,41 @@
         "Lista cytatów"
       ]
     },
+	{
+      "title": "chlss",
+      "description": "Biblioteka szachową którą napisałem w TypeScript oraz opublikowałem w npm. Ponadto napisałem parę skryptów w Python żeby sprawdzić zgodność wyników z innym działającym programem. Używam jej jako zależności w innym moim projekcie - ChessTasks.com",
+      "url": "https://www.github/com/kacperfaber/chlss",
+      "action": "Ukończono w 2023r.",
+      "tags": [
+        "TypeScript",
+        "npm",
+        "Silnik Szachowy",
+        "Jest",
+        "Python",
+        "CI/CD"
+      ]
+    },
     {
       "title": "WSL",
       "description": "Framework MVC napisany w języku Kotlin, bazujący na spring pozwalający tworzyć serwery WebSocket. Umożliwia tworzenie aplikacji webowej jako serwera WebSocket, obsługującej wiele endpointów. Jedną z jego największych zalet jest niesamowity system rozszerzeń, dzięki którym użytkownik może w intuicyjny sposób zrobić co tylko chce np. Przetwarzać rezultat zwrócony przez akcję, albo dodać wartość w postaci parametru do tej akcji. Rozszerzenia to adnotacje, które przechodzą z poziomu wyższego czyli np. Możemy dodać roszerzenie do wszystkich akcji kontrolera za pomocą jednego użycia adnotacji. Biblioteka jest dostępna w repozytorium maven, a instrukcja oraz szczegółowa dokumentacja jest dostępna w repozytorium.",
       "action": "Ukończono w 2023r.",
       "url": "https://www.github.com/kacperfaber/wsl",
       "tags": ["Kotlin", "WebSocket", "Spring", "Framework", "JUnit", "Gradle", "Github Packages", "CI/CD"]
+    },
+	{
+      "title": "wulkanowy",
+      "description": "Utworzenie nowej funkcjonalności w otwarto-źródłowej aplikacji Android - wulkanowy. Jest to nieoficjalna aplikacja dziennika szkolnego, do której dodałem funkcjonalność nazwaną kalkulatorem ocen. Można było utworzyć kalkulator z ocen z wybranego przedmiotu, lub dodać ten przedmiot do istniejącego kalkulatora. Na ekranie kalkulatora można było dodać ocenę, zmodyfikować istniejącą, zmienić jej wagę czyli generalnie zasymulować co się stanie gdy... Pull-Request został wysłany, narazie bez odpowiedzi.",
+      "action": "Zakończono w 2023r.",
+      "url": "https://github.com/wulkanowy/wulkanowy/pull/2114",
+      "tags": [
+        "Kotlin",
+        "Android",
+        "Natywna aplikacja android",
+        "MaterialUI",
+        "Pull-Request",
+        "Kalkulator ocen",
+        "Dziennik szkolny"
+      ]
     },
     {
       "title": "Spencer.NET",
@@ -234,7 +234,7 @@
       "title": "6obcy-client",
       "description": "Aplikacja napisana w języku Python, jako aplikacja kliencka czatu internetowego zgodnie z protokołem który sam udokumentowałem przy użyciu devtoolsów. Czat jest osadzony w terminalu, możemy go obsługiwać komendami np. aby połączyć się należy komendy /connect. Jedynym oknem w tej aplikacji jest okno weryfikacji captcha, które może się pojawić przy pierwszym połączeniu. W celu optymalnego używania strumienia wyjścia program używa flush oraz znaków specjalnych do odświeżania linijek, które zostały już zapełnione..",
       "action": "Ukończono w 2021r.",
-      "url": "https://www.github.com/kacperfaber/6-obcy-client",
+      "url": "https://www.github.com/kacperfaber/6obcy-client-python",
       "tags": [
         "Python",
         "Tkinter",
