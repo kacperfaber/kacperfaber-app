@@ -60,7 +60,7 @@
     {
       "title": "CodzienneMotto.pl/App",
       "description": "Aplikacja wieloplatformowa napisana we frameworku Mithril, jako aplikacja kliencka serwera CodzienneMotto.pl/server. Pozwala na tworzenie list codziennych cytatów i udostępnianie ich innym użytkownikom aplikacji. Użytkownik może dołączyć do naszej listy poprzez kod zaproszenia. Użytkownik widzi tylko dzisiejsze motto i elementy które zostały już pokazane wcześniej. Właściciel listy może zarządzać listą, tworzyć cytaty jako elementy tej listy, zarządzać użytkownikami, wysyłać kody do dołączenia, edytować elementy listy. Docelowo właściciel będzie mógł zaplanować cytat na konkretny dzień lub zmienić kolejność [aktualnie to obsługiwane tylko na serwerze]",
-      "url": "https://www.github/com/kacperfaber/codziennemotto-pl-app",
+      "url": "https://www.github.com/kacperfaber/codziennemotto-pl-app",
       "action": "Ukończono w 2023r. - Nie wdrożono",
       "tags": [
         "Mithril",
