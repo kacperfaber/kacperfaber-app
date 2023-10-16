@@ -91,7 +91,7 @@
 	{
       "title": "chlss",
       "description": "Biblioteka szachową którą napisałem w TypeScript oraz opublikowałem w npm. Ponadto napisałem parę skryptów w Python żeby sprawdzić zgodność wyników z innym działającym programem. Używam jej jako zależności w innym moim projekcie - ChessTasks.com",
-      "url": "https://www.github/com/kacperfaber/chlss",
+      "url": "https://www.github.com/kacperfaber/chlss",
       "action": "Ukończono w 2023r.",
       "tags": [
         "TypeScript",
@@ -113,7 +113,7 @@
       "title": "wulkanowy",
       "description": "Utworzenie nowej funkcjonalności w otwarto-źródłowej aplikacji Android - wulkanowy. Jest to nieoficjalna aplikacja dziennika szkolnego, do której dodałem funkcjonalność nazwaną kalkulatorem ocen. Można było utworzyć kalkulator z ocen z wybranego przedmiotu, lub dodać ten przedmiot do istniejącego kalkulatora. Na ekranie kalkulatora można było dodać ocenę, zmodyfikować istniejącą, zmienić jej wagę czyli generalnie zasymulować co się stanie gdy... Pull-Request został wysłany, narazie bez odpowiedzi.",
       "action": "Zakończono w 2023r.",
-      "url": "https://github.com/wulkanowy/wulkanowy/pull/2114",
+      "url": "https://www.github.com/wulkanowy/wulkanowy/pull/2114",
       "tags": [
         "Kotlin",
         "Android",
@@ -155,7 +155,7 @@
       "title": "FaceitAPI",
       "description": "Mój pierwszy projekt opublikowany publicznie. Jest to wrapper API, obsługujący HTTP API do strony faceit.com. Po kliknięciu, zostaną państwo przekierowani do repozytorium zawierającego przykład użycia biblioteki, a także zawierającego link do pakietu na NuGet.com",
       "action": "Opublikowano w 2019r.",
-      "url": "https://github.com/kacperfaber/FaceitAPI.Samples",
+      "url": "https://www.github.com/kacperfaber/FaceitAPI.Samples",
       "tags": [
         "C#",
         "HTTP",
@@ -167,7 +167,7 @@
       "title": "coronavirus-daily-report",
       "description": "Serwer utworzony w 2021r., który utworzyłem dla własnego użytku. Serwer zapewniał codzienne raporty w postaci maili na temat sytuacji pandemicznej w Polsce i na świecie. Był to mój pierwszy pełny projekt w języku Kotlin. Serwer został już wyłączony.",
       "action": "Utworzono w 2021r.",
-      "url": "https://github.com/kacperfaber/coronavirus-daily-report",
+      "url": "https://www.github.com/kacperfaber/coronavirus-daily-report",
       "tags": [
         "Kotlin",
         "Maven",
@@ -246,7 +246,7 @@
     {
       "title": "kacperfaber-app",
       "description": "Responsywna strona internertowa napisana w React. Pełni funkcję ciekawie wyglądającego portfolio, wyświetlające listę moich projektów, osiągnieć a także danych kontaktowych. Jest dostępna pod adresem kacperfaber.pl",
-      "url": "https://github.com/kacperfaber/kacperfaber-app",
+      "url": "https://www.github.com/kacperfaber/kacperfaber-app",
       "action": "Ukończono w 2023r.",
       "tags": [
         "TypeScript",
