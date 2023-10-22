@@ -6,7 +6,7 @@ const config = {
     links: {
         github: "https://www.github.com/kacperfaber",
         stackoverflow: "https://stackoverflow.com/users/8106461/kacperfaber",
-        emailTo: "mailto:kacperf1234@gmail.com"
+        emailTo: "mailto:kontakt@gmail.com"
     },
 
     contactEmail: "kacperf1234@gmail.com"
