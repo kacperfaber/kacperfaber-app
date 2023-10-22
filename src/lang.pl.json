@@ -305,7 +305,7 @@
       "title": "Bazy danych",
       "description": "Płynnie posługuję się językiem SQL. Pracowałem na kilku frameworkach bazo-danowych zaczynając od EntityFramework, przez Hibernate i kończąc na Room, spring-data-jpa a także ExposedSQL. Używałem baz MySQL, SQlite oraz baz tzw. \"InMemory\". Potrafię również obsługiwać narzędzie phpmyadmin.",
       "action": "Od 2020r.",
-      "tags": ["SQL", "PhpMyAdmin", "EntityFramework", "Hibernate", "Spring-Data-Jpa", "Room", "Exposed"]
+      "tags": ["MongoDB", "PostgreSQL", "MySQL", "SQL", "PhpMyAdmin", "EntityFramework", "Hibernate", "Spring-Data-Jpa", "Room", "Exposed"]
     },
 
     {
@@ -337,6 +337,13 @@
     },
 
     {
+      "title": "Docker, Kubernates, Quarkus etc.",
+      "description": "Obsługa popularnych systemów służących do wirtualizacji takich jak Docker, oraz narzędzi do tego przeznaczonych",
+      "action": "Od 2023r.",
+      "tags": ["Docker", "Kubernates", "Quarkus"]
+    },
+
+    {
       "title": "Systemy kompilacji",
       "description": "Obsługuję systemy służące do kompilacji takie jak Gradle, Maven czy WebPack. Kiedyś bawiłem się również trochę w CMake.",
       "tags": ["Gradle", "Maven", "WebPack", "npm", "CMake"]
@@ -353,7 +360,7 @@
       "title": "Protokoły sieciowe",
       "description": "Bardzo dobrze znam protokoły sieciowe takie jak HTTP, WebSocket czy SMTP. Protokół HTTP poznałem bardzo dobrze przy pisaniu licznych serwerów API, oraz przy używaniu zewnętrznych serwerów API. Protokół WebSocket, przy okazji pisania aplikacji klienckiej dla czatu internetwego zewnętrznej firmy, a także przy pisaniu biblioteki WSL. Ponadto mogę pochwalić się doświadczeniem z protokołem dostępu do danych OAuth2.",
       "action": "Od 2019r.",
-      "tags": ["HTTP", "WebSocket", "SMTP", "wsl"]
+      "tags": ["HTTP", "WebSocket", "SMTP", "TCP/IP", "Socket", "wsl"]
     },
 
     {
@@ -361,6 +368,13 @@
       "description": "Moje projecty są dobrze sprawdzone przy użyciu testów jednostkowych i integracyjnych. Znam popularne frameworki takie jak JUnit, jest czy xUnit. Potrafię wykonywać Mocki oraz obsługuję rozszerzenia do testowania z frameworka Spring. W aplikacjach webowych testuję również tzw. \"Warstwę sieci\" czyli jak działają konkretne endpointy.",
       "action": "Od 2019r.",
       "tags": ["JUnit", "xUnit", "Jest", "Mock", "mockito", "spyOn", "Spring Test"]
+    },
+
+    {
+      "title": "Architektura Hexagonalna",
+      "description": "Stosuję aktualnie w moich projektach",
+      "action": "Od 2023r.",
+      "tags": ["Hexagonal Architecture"]
     },
 
     {
