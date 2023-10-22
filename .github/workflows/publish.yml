@@ -1,3 +1,4 @@
+#file: noinspection SpellCheckingInspection
 name: publish
 
 on:
@@ -27,6 +28,7 @@ jobs:
         --env emailTo="${{ vars.emailTo }}"
         --env github="https://www.github.com/kacperfaber"
         --env stackoverflow="https://stackoverflow.com/users/8106461/kacperfaber"
+        --env zlecaFooterLink="${{ vars.ZLECA_FOOTER_LINK }}"
 
     - name: Run install script
       run: bash /usr/share/kacperfaber-app/install.sh

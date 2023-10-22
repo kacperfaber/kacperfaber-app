@@ -11,6 +11,10 @@ module.exports = (env) => {
             twitter: env.twitter
         },
 
+        footerLinks: {
+            zleca: env.zlecaFooterLink
+        },
+
         contactEmail: env.contactEmail
     }
 
